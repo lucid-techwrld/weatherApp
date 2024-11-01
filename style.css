@@ -30,7 +30,7 @@ header {
 
   background-color: hsla(0, 0%, 99%, 0.50);
   backdrop-filter: blur(50px);
-  z-index: 0;
+  z-index: 2;
 }
 
 header .head {
