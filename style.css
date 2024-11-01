@@ -1,0 +1,146 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-size: 15pt;
+  background: rgb(34, 193, 195);
+  background: linear-gradient(0deg, rgba(34, 193, 195, 1) 0%, rgba(253, 187, 45, 1) 100%);
+  /*background: rgb(2, 0, 36);
+  background: linear-gradient(151deg, rgba(2, 0, 36, 1) 0%, rgba(3, 2, 52, 1) 8%, rgba(9, 9, 121, 1) 20%, rgba(0, 212, 255, 1) 100%); */
+}
+
+header {
+  width: 100%;
+  max-height: 150px;
+
+  top: 0;
+  padding: 10px;
+  position: fixed;
+  display: flex;
+  flex-direction: column;
+
+  background-color: hsla(0, 100%, 0%, 0.10);
+  backdrop-filter: blur(50px);
+}
+
+header .head {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.head img {
+  width: 100px;
+  height: 80px;
+}
+
+.head p {
+  font-size: 40px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  color: #fff;
+  font-style: italic;
+  text-shadow: 2px 7px 10px black;
+}
+
+header input {
+  width: 100%;
+  height: 40px;
+
+  outline: none;
+  border-radius: 30px;
+  padding: 5px 15px;
+
+  font-size: 15px;
+  color: black;
+}
+
+.main {
+  margin-top: 150px;
+  padding: 10px;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.main .weather-info {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  margin: 10px;
+}
+
+.weather-info img {
+  width: 150px;
+  height: 150px;
+}
+
+.weather-info p {
+  font-size: 30px;
+  font-style: bold;
+  margin: 10px;
+}
+
+.weather-info h1 {
+  color: #fff;
+}
+
+marquee {
+  margin-top: 10px;
+  font-size: 20px;
+}
+
+.main .other-info {
+  display: flex;
+  justify-content: space-between;
+
+  width: 100%;
+  height: 50px;
+  margin-top: 80px;
+}
+
+.other-info .humidity {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 10px
+}
+
+.humidity img {
+  width: 50px;
+  height: 50px;
+}
+
+.humidity p {
+  font-size: 25px;
+}
+
+.humidity h5 {
+  color: #fff;
+}
+
+.other-info .wind {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 10px
+}
+
+.wind img {
+  width: 50px;
+  height: 50px;
+}
+
+.wind p {
+  font-size: 25px;
+}
+
+.wind h5 {
+  color: #fff;
+}
